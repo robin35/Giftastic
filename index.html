@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+
+        <!-- METADATA -->
+        <meta charset="UTF-8" >
+        
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Luckiest+Guy" rel="stylesheet">
+
+        <!-- JQUERY SCRIPT -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+              
+        <title>GifTastic TV</title>
+    
+    </head>
+
+    <body class = "b-body">
+
+    <div class="container">
+        <!-- -------------------------------------------------------------------------------------------------------------- -->
+        <!-- HEADER -->
+        <!-- -------------------------------------------------------------------------------------------------------------- -->
+
+        <header>
+            <h1 class = "h1-header">GIFTASTIC TV<span><br>Choose a TV Show and Git a Gif!</span></span></h1>
+        </header>
+
+
+
+        <!-- -------------------------------------------------------------------------------------------------------------- -->
+        <!-- BUTTONS SECTION - Buttons created with JS are displayed here -->
+        <!-- -------------------------------------------------------------------------------------------------------------- -->
+
+        <div class="div-btns"></div>
+
+
+
+        <!-- -------------------------------------------------------------------------------------------------------------- -->
+        <!-- BOTTOM SECTION -->
+        <!-- -------------------------------------------------------------------------------------------------------------- -->
+
+        <div class = "div-display">
+
+            <!-- ---------------------------------------------------------------------------------------------------------- -->
+            <!-- LEFT SCREEN - Gifs are displayed here -->
+            <!-- ---------------------------------------------------------------------------------------------------------- -->
+
+
+            <div class="div-left" id="js-display">
+                <div class="tvScreen">
+                    <div class="tvContent"></div>
+                </div>
+
+                <div class="neck"></div>
+                
+                <div class="stand"></div>
+
+
+            </div>
+
+
+            <!-- ---------------------------------------------------------------------------------------------------------- -->
+            <!-- RIGHT SCREEN - User Selections are made here; Favorites are displayed below User Selections section -->
+            <!-- ---------------------------------------------------------------------------------------------------------- -->
+
+            <div class="div-right" id="js-select">
+                <h2>Make Your Selection Here:</h2>
+
+                <!-- ------------------------------------------------------------------------------------------------------ -->
+                <!-- RIGHT SCREEN - USER SELECTION - This is the section where the user makes his/her selection -->
+                <!-- ------------------------------------------------------------------------------------------------------ -->                
+                
+                <div class="selection">
+
+                    <form>
+                        <input class = "show" type="text">
+                        <button class="btns js-submitBtn" type="button">Submit</button>
+                    </form>
+
+                    <div>Add More Shows?:
+                        <button class="btns js-moreShowsBtn" type="button">Yes</button>
+                    </div>
+
+                    <div>Add to Favorites?
+                        <button class="btns js-favoritesBtn"type="button">Yes</button>
+                    </div>
+
+                </div>
+
+
+                <!-- ------------------------------------------------------------------------------------------------------ -->
+                <!-- RIGHT SCREEN - FAVORITES DISPLAY - This is the section where the favorites display -->
+                <!-- ------------------------------------------------------------------------------------------------------ -->   
+
+                <div class="favorites">
+                    <h2>Favorite Shows:</h2>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </body>
+
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+    <!-- FOOTER -->
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+
+    <footer>
+        Copyright ©
+
+        <!-- JAVASCRIPT -->
+        <script type = "text/javascript" src="assets/javascript/javascript.js"></script>
+
+    </footer>
+
+
+
+
+</html>
