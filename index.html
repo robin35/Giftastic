@@ -28,7 +28,8 @@
         <!-- -------------------------------------------------------------------------------------------------------------- -->
 
         <header>
-            <h1 class = "h1-header">GIFTASTIC TV<span><br>Choose a TV Show and Git a Gif!</span></span></h1>
+            <h1 class = "h1-header">GIFTASTIC TV<span><br>Choose a Show and Git a Gif!</span></span></h1><br>
+            <h2>To see Gifs of your favorite TV shows, click one of the buttons below or create your own button!</h2>
         </header>
 
 
@@ -37,9 +38,34 @@
         <!-- BUTTONS SECTION - Buttons created with JS are displayed here -->
         <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-        <div class="div-btns"></div>
+        <div class="buttons-container">
+            
+            <div class="buttons-left">
+                <div class="div-btns"></div>
+            </div>
+
+            
+
+                    <div class="selection">
+
+                            <form>
+                                Add a TV Show Button: <input class = "show" type="text">
+                                <button class="btns js-submitBtn" type="button">Submit</button>
+                            </form>
+                            <!--
+                            <div>Add More Shows?:
+                                <button class="btns js-moreShowsBtn" type="button">Yes</button>
+                            </div>
+        
+                            <div>Add to Favorites?
+                                <button class="btns js-favoritesBtn"type="button">Yes</button>
+                            </div>
+                             -->
+                    </div>
 
 
+
+        </div>
 
         <!-- -------------------------------------------------------------------------------------------------------------- -->
         <!-- BOTTOM SECTION -->
@@ -70,38 +96,22 @@
             <!-- ---------------------------------------------------------------------------------------------------------- -->
 
             <div class="div-right" id="js-select">
-                <h2>Make Your Selection Here:</h2>
-
+                
                 <!-- ------------------------------------------------------------------------------------------------------ -->
                 <!-- RIGHT SCREEN - USER SELECTION - This is the section where the user makes his/her selection -->
                 <!-- ------------------------------------------------------------------------------------------------------ -->                
                 
-                <div class="selection">
 
-                    <form>
-                        <input class = "show" type="text">
-                        <button class="btns js-submitBtn" type="button">Submit</button>
-                    </form>
-
-                    <div>Add More Shows?:
-                        <button class="btns js-moreShowsBtn" type="button">Yes</button>
-                    </div>
-
-                    <div>Add to Favorites?
-                        <button class="btns js-favoritesBtn"type="button">Yes</button>
-                    </div>
-
-                </div>
 
 
                 <!-- ------------------------------------------------------------------------------------------------------ -->
                 <!-- RIGHT SCREEN - FAVORITES DISPLAY - This is the section where the favorites display -->
                 <!-- ------------------------------------------------------------------------------------------------------ -->   
-
+                <!-- 
                 <div class="favorites">
                     <h2>Favorite Shows:</h2>
                 </div>
-
+                -->
             </div>
 
         </div>
@@ -115,7 +125,7 @@
     <!-- -------------------------------------------------------------------------------------------------------------- -->
 
     <footer>
-        Copyright ©
+        Gifs courtesy of https://giphy.com.  Copyright ©
 
         <!-- JAVASCRIPT -->
         <script type = "text/javascript" src="assets/javascript/javascript.js"></script>

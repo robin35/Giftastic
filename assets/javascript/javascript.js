@@ -10,7 +10,7 @@ var topics = [
     "Doctor Who",
     "Sponge Bob",
     "Scandal",
-    "The Munsters"
+    "Game of Thrones"
 ];
 
 var searchText;

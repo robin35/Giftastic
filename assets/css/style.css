@@ -17,11 +17,12 @@ color: rgb(9, 60, 155);
 
 .container {
 
+    width: auto;
+    height: 85vh;
 }
 
 header {
     height: 15vh;
-    padding: 20px;
 
     max-width:100%;
     max-height:100%;
@@ -39,16 +40,37 @@ header {
     font-family: 'Luckiest Guy', cursive;
     font-weight: 600;
     text-align: center;
+/*
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+*/
+}
 
+.selection {
+    width: 30%;
+    float: left;
+/*    
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+*/
+}
 
+.buttons-container {
+    width: 100%;
 }
 
 
 .div-btns {
+    width: 70%;
+    float: left;
+/*    
     height: 10vh;
     border-color: red;
     border-width: 2px;
     border-style: solid;
+*/
 }
 
 
@@ -72,6 +94,9 @@ header {
 }
 
 
+.js-gifBtns:focus {
+    background-color: red;
+}
 
 
 .btns {    
@@ -106,20 +131,20 @@ header {
     height: 68vh;
     width: 70%;
     float: left;
-
+/*
     border-color: black;
     border-width: 2px;
     border-style: solid;
-
+*/
 }
 
 .tvScreen {
     height: 60vh;
     border-color: rgb(82, 150, 15);
+    
     border-width: 30px;
     border-style: solid;
     border-radius: 10px;
-
 }
 
 .tvContent {
@@ -133,16 +158,17 @@ header {
     background-color: black;
 
     overflow: auto;
-    
+    display: inline-block;
 }
 
 
 .js-img-gifImage {
     width: 175px;
-
+/*
     border-color: black;
     border-width: 5px;
     border-style: solid;
+*/
 }
 
 .js-div-allImages {
@@ -176,10 +202,11 @@ header {
 .rating {
     text-align: center;
     float: left;
-
+/*
     border-color: black;
     border-width: 2px;
     border-style: solid;
+*/
 }
 
 .div-right {
@@ -189,22 +216,21 @@ header {
 
     width: 30%;
     float: left;
-
+/*
     border-color: black;
     border-width: 2px;
     border-style: solid;
+*/
 }
 
-.selection {
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-}
+
 
 .favorites {
+/*
     border-color: black;
     border-width: 2px;
     border-style: solid;
+*/
 }
 
 
